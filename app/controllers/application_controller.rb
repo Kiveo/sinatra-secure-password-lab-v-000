@@ -23,7 +23,7 @@ class ApplicationController < Sinatra::Base
       redirect '/login'
     elsif !!@user.username
       redirect 'failure'
-    else 
+    else
       redirect 'failure'
     end
   end
